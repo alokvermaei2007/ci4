@@ -13,8 +13,8 @@ This is a simple CodeIgniter 4 app that allows you to manage users in a database
 2. Create a new MySQL database for the app.
 3. Copy the `.env.example` file to `.env` and adjust the database settings.
 4. Run `composer install` to install the dependencies.
-5. Run `php spark migrate` to create the users table.
-6. Run `php spark serve` to start the development server.
+5. Create a table users in database.
+6. Import the database.sql (placed at the root directory).
 
 ## Controllers
 
