@@ -33,3 +33,7 @@ The app has the following routes defined in the `app/Config/Routes.php` file:
 - `GET /`: redirects to `/users-list`.
 - `GET /users-list`: displays a list of all users.
 - `GET /user-form`: displays a form to create a new user.
+
+
+Sample Screentshot for List page
+<img width="1357" alt="image" src="https://user-images.githubusercontent.com/49829684/236779191-d7bc2998-698b-460d-ba5f-39888d921546.png">
