@@ -1,62 +1,43 @@
-# CodeIgniter 4 Application Starter
+Sure, here's a sample README file that you can use to document your shell script and the project:
 
-## What is CodeIgniter?
+# CodeIgniter Project Setup Script
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+This script automates the setup process for a CodeIgniter project by cloning the project from GitHub, installing dependencies with Composer, creating a MySQL database, and importing an SQL file. This script is intended for developers with at least 10 years of experience.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Requirements
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+- Bash shell (Linux, macOS)
+- Git client
+- PHP (with Composer)
+- MySQL client
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## Installation
 
-## Installation & updates
+1. Download the `setup.sh` file from this repository.
+2. Open a terminal and navigate to the directory where the `setup.sh` file is located.
+3. Make the `setup.sh` file executable by running the following command: `chmod +x setup.sh`
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+## Usage
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+1. Open a terminal and navigate to the directory where the `setup.sh` file is located.
+2. Run the `setup.sh` script by running the following command: `./setup.sh`
+3. Follow the prompts to enter the MySQL database details (database name, username, password, and host).
+4. Wait for the script to complete the setup process.
 
-## Setup
+## Notes
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+- If the MySQL client is not installed on your system, the script will prompt you to install it before continuing.
+- The script will clone the project from the following public GitHub repository: `git@github.com:alokvermaei2007/ci4.git`
+- The `database.sql` file should be located in the same directory as the `setup.sh` file.
+- After the script completes the setup process, you can access the CodeIgniter project by opening a web browser and navigating to the project's URL.
 
-## Important Change with index.php
+## License
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## Acknowledgments
 
-**Please** read the user guide for a better explanation of how CI4 works!
+- This script was inspired by [CodeIgniter4 Project Creation](https://github.com/lonnieezell/myth-create-project) by Lonnie Ezell.
+- Thanks to the contributors of the [CodeIgniter](https://codeigniter.com/) project for their hard work on this great framework.
 
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Feel free to modify this README file to suit your specific project requirements.
