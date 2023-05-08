@@ -1,4 +1,4 @@
-Sure, here's a sample README file that you can use to document your shell script and the project:
+here's a sample README file that you can use to document your shell script and the project:
 
 # CodeIgniter Project Setup Script
 
