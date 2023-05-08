@@ -35,7 +35,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- This script was inspired by [CodeIgniter4 Project Creation](https://github.com/lonnieezell/myth-create-project) by Lonnie Ezell.
-- Thanks to the contributors of the [CodeIgniter](https://codeigniter.com/) project for their hard work on this great framework.
 
 Feel free to modify this README file to suit your specific project requirements.
