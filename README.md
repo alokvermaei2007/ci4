@@ -26,6 +26,14 @@ The `UserCrud` class is located in the `app/Controllers` directory and provides 
 - `update`: updates a user by ID in the database using the given data.
 - `delete`: deletes a user by ID from the database.
 
+## View
+
+The app has the following vies defined in the `app/Views` file:
+
+- `add_user`: For add user form.
+- `edit user`: For edit user form.
+- `user_view`: to view all users.
+
 ## Routes
 
 The app has the following routes defined in the `app/Config/Routes.php` file:
