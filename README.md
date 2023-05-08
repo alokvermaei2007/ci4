@@ -1,6 +1,6 @@
 # User Management App
 
-This is a simple CodeIgniter 4 app that allows you to manage users in a database.
+This is a simple CodeIgniter 4 app that allows you to manage users in a database. (Please refer to automation script from single command installation)
 
 ## Requirements
 
