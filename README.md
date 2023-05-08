@@ -1,4 +1,4 @@
-# CodeIgniter Project Setup Script
+# CodeIgniter Project Setup Automated Script
 
 This script automates the setup process for a CodeIgniter project by cloning the project from GitHub, installing dependencies with Composer, creating a MySQL database, and importing an SQL file. This script is intended for developers with at least 10 years of experience.
 
