@@ -1,5 +1,3 @@
-here's a sample README file that you can use to document your shell script and the project:
-
 # CodeIgniter Project Setup Script
 
 This script automates the setup process for a CodeIgniter project by cloning the project from GitHub, installing dependencies with Composer, creating a MySQL database, and importing an SQL file. This script is intended for developers with at least 10 years of experience.
