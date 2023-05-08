@@ -11,9 +11,9 @@ This script automates the setup process for a CodeIgniter project by cloning the
 
 ## Installation
 
-1. Download the `setup.sh` file from this repository.
-2. Open a terminal and navigate to the directory where the `setup.sh` file is located.
-3. Make the `setup.sh` file executable by running the following command: `chmod +x setup.sh`
+1. Download the `automation.sh` file from this repository.
+2. Open a terminal and navigate to the directory where the `automation.sh` file is located.
+3. Make the `automation.sh` file executable by running the following command: `chmod +x setup.sh`
 
 ## Usage
 
